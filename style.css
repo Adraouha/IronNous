@@ -298,41 +298,41 @@ strong {
 
 .article-card__media--nacional {
     background-image:
-        url("/img/noticies_media/nacional_madrid.webp");
+        url("img/noticies_media/nacional_madrid.webp");
     background-position: cover center;
     background-repeat: no-repeat;
 }
 
 .article-card__media--nacional-alt {
-    background-image: url("/img/noticies_media/eines_ia.png");
+    background-image: url("img/noticies_media/eines_ia.png");
     background-position: cover center;
     background-repeat: no-repeat;
 }
 
 .article-card__media--internacional {
     background-image:
-        url("/img/noticies_media/geopolitica.png");
+        url("img/noticies_media/geopolitica.png");
     background-position: cover center;
     background-repeat: no-repeat;
 
 }
 
 .article-card__media--internacional-alt {
-    background-image: url("/img/noticies_media/startup.jpg");
+    background-image: url("img/noticies_media/startup.jpg");
     background-size: cover, 20px 20px, 220px;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .article-card__media--cultura {
-    background-image: url("/img/noticies_media/lerma.jpeg");
+    background-image: url("img/noticies_media/lerma.jpeg");
     background-position: cover center;
     background-repeat: no-repeat;
 
 }
 
 .article-card__media--cultura-alt {
-    background-image: url("/img/noticies_media/lerma.jpeg");
+    background-image: url("img/noticies_media/lerma.jpeg");
     background-size: cover, 26px 26px, 220px;
     background-position: center;
     background-repeat: no-repeat;
@@ -341,7 +341,7 @@ strong {
 
 .article-card__media--esports {
     background-image:
-        url("/img/noticies_media/atletisme.avif");
+        url("img/noticies_media/atletisme.avif");
     background-position: cover center;
     background-repeat: no-repeat;
 
