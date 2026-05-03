@@ -387,9 +387,77 @@ strong {
     text-decoration: none;
 }
 
-@media (max-width: 900px) {
+/*    RESPONSIVE DESIGN    */
 
-    .top-story,
+/* Tablet Version  */
+@media (width <=1024px) {
+    .hero {
+        min-height: 50vh;
+        padding: 1.5rem;
+    }
+
+    .logo-card div h1 {
+        font-size: clamp(2.5rem, 6vw, 4rem);
+    }
+
+    .newsroom {
+        width: min(95%, 1180px);
+        padding: 1.5rem 0;
+    }
+
+    .top-story {
+        grid-template-columns: 1fr;
+    }
+
+    .top-story__media {
+        min-height: 250px;
+        background-size: cover, 32px 32px, 180px;
+    }
+
+    .article-card h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile Version (Traditional Syntax) */
+@media (max-width: 767px) {
+    .eyebrow {
+        display: none;
+    }
+
+    .logo-card {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .logo-card div h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .logo-hero {
+        width: 140px;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero__lead {
+        font-size: 0.9rem;
+        line-height: 1.5;
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .menu {
+        padding: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .menu a {
+        font-size: 14px;
+        padding: 4px 8px;
+        margin-bottom: 5px;
+    }
+
     .article-grid {
         grid-template-columns: 1fr;
     }
@@ -401,28 +469,38 @@ strong {
     .article-card__text--columns {
         column-count: 1;
     }
-}
 
-@media (max-width: 640px) {
-    .hero {
-        min-height: 60vh;
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
+
+    /* Contrast enhancement for mobile - darker text and stronger borders */
+    .article-card {
+        background: #ffffff;
+        border: 2px solid var(--ink);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .article-card__body {
         padding: 1rem;
     }
 
-    .hero__overlay {
-        padding: 1.25rem;
-    }
-
-    .newsroom {
-        width: min(100% - 1rem, 1180px);
-    }
-
-    .section-heading {
-        align-items: start;
-        flex-direction: column;
-    }
-
     .article-card h3 {
-        font-size: 1.45rem;
+        font-size: 1.25rem;
+        color: #000;
+        /* Higher contrast */
+    }
+
+    .article-card__text {
+        font-size: 0.95rem;
+        text-indent: 0;
+        /* Remove indent for cleaner look on small screens */
+    }
+
+    .site-footer__content {
+        flex-direction: column;
+        gap: 15px;
     }
 }
