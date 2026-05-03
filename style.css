@@ -160,8 +160,9 @@ strong {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 20px;
     border-bottom: 2px solid #feffff;
-    color: #0089f8;
+    color: #01080e;
     text-shadow: 1px 1px 1px #ffffff;
     margin-bottom: 10px;
     padding-bottom: 0.5rem;
@@ -297,61 +298,61 @@ strong {
 
 .article-card__media--nacional {
     background-image:
-        linear-gradient(135deg, rgba(182, 64, 36, 0.68), rgba(23, 50, 77, 0.28)),
-        linear-gradient(0deg, rgba(255, 243, 231, 0.1), rgba(255, 243, 231, 0.1)),
-        url("logo-nous.png");
+        url("/img/noticies_media/nacional_madrid.webp");
+    background-position: cover center;
+    background-repeat: no-repeat;
 }
 
 .article-card__media--nacional-alt {
-    background-image:
-        linear-gradient(135deg, rgba(214, 124, 77, 0.75), rgba(29, 36, 48, 0.35)),
-        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.35), transparent 30%),
-        url("logo-nous.png");
+    background-image: url("/img/noticies_media/eines_ia.png");
+    background-position: cover center;
+    background-repeat: no-repeat;
 }
 
 .article-card__media--internacional {
     background-image:
-        linear-gradient(135deg, rgba(23, 50, 77, 0.82), rgba(182, 64, 36, 0.3)),
-        radial-gradient(circle at 75% 30%, rgba(255, 255, 255, 0.3), transparent 22%),
-        url("logo-nous.png");
+        url("/img/noticies_media/geopolitica.png");
+    background-position: cover center;
+    background-repeat: no-repeat;
+
 }
 
 .article-card__media--internacional-alt {
-    background-image:
-        linear-gradient(135deg, rgba(26, 58, 89, 0.7), rgba(214, 124, 77, 0.45)),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px),
-        url("logo-nous.png");
+    background-image: url("/img/noticies_media/startup.jpg");
     background-size: cover, 20px 20px, 220px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .article-card__media--cultura {
-    background-image:
-        linear-gradient(135deg, rgba(80, 37, 25, 0.72), rgba(214, 124, 77, 0.45)),
-        radial-gradient(circle at center, rgba(255, 255, 255, 0.22), transparent 38%),
-        url("logo-nous.png");
+    background-image: url("/img/noticies_media/lerma.jpeg");
+    background-position: cover center;
+    background-repeat: no-repeat;
+
 }
 
 .article-card__media--cultura-alt {
-    background-image:
-        linear-gradient(135deg, rgba(182, 64, 36, 0.58), rgba(23, 50, 77, 0.52)),
-        linear-gradient(45deg, rgba(255, 248, 239, 0.16) 25%, transparent 25%, transparent 50%, rgba(255, 248, 239, 0.16) 50%, rgba(255, 248, 239, 0.16) 75%, transparent 75%, transparent),
-        url("logo-nous.png");
+    background-image: url("/img/noticies_media/lerma.jpeg");
     background-size: cover, 26px 26px, 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .article-card__media--esports {
     background-image:
-        linear-gradient(135deg, rgba(23, 50, 77, 0.86), rgba(214, 124, 77, 0.32)),
-        radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.24), transparent 35%),
-        url("logo-nous.png");
+        url("/img/noticies_media/atletisme.avif");
+    background-position: cover center;
+    background-repeat: no-repeat;
+
 }
 
 .article-card__media--esports-alt {
     background-image:
-        linear-gradient(135deg, rgba(45, 65, 219, 0.76), rgba(23, 50, 77, 0.4)),
-        linear-gradient(90deg, rgba(255, 255, 255, 0.14) 50%, transparent 50%),
         url("fond-news.jpg");
     background-size: cover, 18px 18px, 220px;
+    background-position: cover center;
+    background-repeat: no-repeat;
 }
 
 .site-footer {
